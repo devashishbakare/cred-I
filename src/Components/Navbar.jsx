@@ -13,8 +13,13 @@ export const Navbar = () => {
             className="h-[55px] w-[43px]"
           />
         </div>
-
-        <div className="h-full w-[50%] flex flex-row-reverse items-center">
+        <div className="hidden md:flex  h-full w-[50%] flex-row-reverse items-center gap-5">
+          <span className="text-white font-bold mr-7 cursor-pointer">
+            Credit Score Check
+          </span>
+          <span className="text-white font-bold cursor-pointer">Cred Pay</span>
+        </div>
+        <div className="h-full w-[50%] flex flex-row-reverse items-center md:hidden">
           {!showMenu && (
             <>
               <AiOutlineMenu

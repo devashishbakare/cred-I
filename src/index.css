@@ -5,3 +5,11 @@
 body {
   background-color: #0f0f0f;
 }
+
+.explorBackground {
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+  padding: 195px 40px 90px;
+  min-height: 1150px;
+  background-position: right center;
+  /* position: relative; */
+}

@@ -13,3 +13,12 @@ body {
   background-position: right center;
   /* position: relative; */
 }
+
+.experienceBackground {
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+  padding: 195px 40px 90px;
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-pack: end;
+}

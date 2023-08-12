@@ -47,7 +47,7 @@ export const MobileAnimation = () => {
           <img
             src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-left-2.png"
             alt="phoneImage"
-            className="h-[100%] w-[300px] z-[999] absolute top-15 left-[45%] sm:left-[50%] md:left-[32%] md:w-[330px]"
+            className="h-[100%] w-[300px] z-[999] absolute top-15 left-[45%] sm:left-[50%] md:left-[33%]"
           />
 
           <img

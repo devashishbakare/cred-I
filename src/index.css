@@ -22,3 +22,22 @@ body {
   background-repeat: no-repeat;
   -webkit-box-pack: end;
 }
+
+.mobileShadow {
+  border-radius: 46px;
+  padding: 16px, 14px;
+  box-shadow: rgba(250, 250, 255, 0.16) 0px -5px 6px 0px inset,
+    rgba(38, 37, 37, 0.24) 4px 6px 11px 1px inset;
+}
+
+.featureMaxDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid green;
+  /* Adjust as needed */
+  /* position: absolute; */
+  /* transition: opacity 0.5s; */
+}

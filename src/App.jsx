@@ -4,6 +4,9 @@ import { MobileAnimation } from "./Components/MobileAnimation";
 import { Explore } from "./Components/Explore";
 import { Reward } from "./Components/Reward";
 import { Exprience } from "./Components/Exprience";
+import { Features } from "./Components/Features";
+import displayFeatures from "./Constants";
+import { FeatureMd } from "./Components/FeatureMd";
 function App() {
   return (
     <>
@@ -24,6 +27,16 @@ function App() {
       </div>
       <div className="h-[120vh] min-h-[900px] w-full md:min-h-[700px] md:h-[92vh]">
         <Exprience />
+      </div>
+      <div className="h-[95vh] w-full min-h-[850px] md:hidden">
+        {displayFeatures.map((featureData, index) => (
+          <>
+            <Features feature={featureData} key={index} />
+          </>
+        ))}
+      </div>
+      <div className="hidden md:block h-[95vh] w-full overflow-y-scroll border-2">
+        <FeatureMd />
       </div>
     </>
   );

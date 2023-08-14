@@ -7,6 +7,7 @@ import { Exprience } from "./Components/Exprience";
 import { Features } from "./Components/Features";
 import displayFeatures from "./Constants";
 import { FeatureMd } from "./Components/FeatureMd";
+import { Security } from "./Components/Security";
 function App() {
   return (
     <>
@@ -28,7 +29,7 @@ function App() {
       <div className="h-[120vh] min-h-[900px] w-full md:min-h-[700px] md:h-[92vh]">
         <Exprience />
       </div>
-      <div className="h-[95vh] w-full min-h-[850px] md:hidden">
+      <div className="h-auto w-full min-h-[850px] md:hidden">
         {displayFeatures.map((featureData, index) => (
           <>
             <Features feature={featureData} key={index} />
@@ -37,6 +38,10 @@ function App() {
       </div>
       <div className="hidden md:block h-[95vh] w-full min-h-[850px] overflow-y-scroll">
         <FeatureMd />
+      </div>
+      <div className="hidden md:min-h-[500px] w-full bg-[url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png)] bg-cover bg-no-repeat bg-center bg-fixed"></div>
+      <div className="h-[100vh] min-h-[900px] w-full">
+        <Security />
       </div>
     </>
   );

@@ -35,7 +35,7 @@ function App() {
           </>
         ))}
       </div>
-      <div className="hidden md:block h-[95vh] w-full overflow-y-scroll border-2">
+      <div className="hidden md:block h-[95vh] w-full min-h-[850px] overflow-y-scroll">
         <FeatureMd />
       </div>
     </>

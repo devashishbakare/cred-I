@@ -8,7 +8,7 @@ export const FeatureMd = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPossition = scrollSectionOnPage.scrollTop;
-      console.log(scrollPossition);
+      // console.log(scrollPossition);
       if (scrollPossition >= 0 && scrollPossition <= 180) {
         setImagePath(displayFeatures[0].imageUrl);
         const updateOpacity = new Array(4).fill(0);

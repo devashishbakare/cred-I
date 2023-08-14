@@ -12,7 +12,7 @@ export const Security = () => {
         <img
           src="https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg"
           alt="DogSecurityImage"
-          className="hidden md:block h-full w-full object-cover"
+          className="hidden md:block h-full w-full object-center object-cover"
         />
         <div className="absolute h-[85%] w-full top-[12%] flex flex-col items-center justify-between">
           <div className="h-auto w-full flex flex-col gap-5">

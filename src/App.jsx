@@ -8,6 +8,7 @@ import { Features } from "./Components/Features";
 import displayFeatures from "./Constants";
 import { FeatureMd } from "./Components/FeatureMd";
 import { Security } from "./Components/Security";
+import { CredStory } from "./Components/CredStory";
 function App() {
   return (
     <>
@@ -39,9 +40,12 @@ function App() {
       <div className="hidden md:block h-[95vh] w-full min-h-[850px] overflow-y-scroll">
         <FeatureMd />
       </div>
-      <div className="hidden md:min-h-[500px] w-full bg-[url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png)] bg-cover bg-no-repeat bg-center bg-fixed"></div>
+      <div className="hidden md:block min-h-[500px] w-full bg-[url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png)] bg-cover bg-no-repeat bg-center bg-fixed"></div>
       <div className="h-[100vh] min-h-[900px] w-full">
         <Security />
+      </div>
+      <div className="h-[100vh] min-h-[900px] w-full">
+        <CredStory />
       </div>
     </>
   );

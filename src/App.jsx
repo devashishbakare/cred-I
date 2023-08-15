@@ -9,6 +9,7 @@ import displayFeatures from "./Constants";
 import { FeatureMd } from "./Components/FeatureMd";
 import { Security } from "./Components/Security";
 import { CredStory } from "./Components/CredStory";
+import { Review } from "./Components/Review";
 function App() {
   return (
     <>
@@ -33,7 +34,7 @@ function App() {
       <div className="h-auto w-full min-h-[850px] md:hidden">
         {displayFeatures.map((featureData, index) => (
           <>
-            <Features feature={featureData} key={index} />
+            <Features key={index} feature={featureData} />
           </>
         ))}
       </div>
@@ -46,6 +47,9 @@ function App() {
       </div>
       <div className="h-[100vh] min-h-[900px] w-full">
         <CredStory />
+      </div>
+      <div className="h-[100vh] min-h-[900px] w-full md:h-[70vh] md:min-h-[690px]">
+        <Review />
       </div>
     </>
   );

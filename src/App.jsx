@@ -5,7 +5,7 @@ import { Explore } from "./Components/Explore";
 import { Reward } from "./Components/Reward";
 import { Exprience } from "./Components/Exprience";
 import { Features } from "./Components/Features";
-import displayFeatures from "./Constants";
+import { displayFeatures } from "./Constants";
 import { FeatureMd } from "./Components/FeatureMd";
 import { Security } from "./Components/Security";
 import { CredStory } from "./Components/CredStory";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import displayFeatures from "../Constants";
+import { displayFeatures } from "../Constants";
 
 export const FeatureMd = () => {
   const [imagePath, setImagePath] = useState(displayFeatures[0].imageUrl);

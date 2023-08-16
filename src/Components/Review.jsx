@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { IoLogoApple, IoLogoGooglePlaystore } from "react-icons/io5";
+import { reviews } from "../Constants";
+import Slider from "react-slick";
+
 export const Review = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    arrows: false,
+  };
   return (
     <>
-      <div className="h-full w-full border-2 flex flex-col gap-3">
+      <div className="h-full w-full flex flex-col gap-12 justify-center items-center">
         {/* ratting wrapper start */}
-        <div className="h-[40%] w-full border-2 flex flex-col md:flex-row md:h-[50%]">
+        <div className="h-[40%] w-full flex flex-col md:flex-row md:h-[50%]">
           {/* app store wrapper */}
           <div className="h-[50%] w-[90%] ml-5 md:h-full md:w-full">
             <div className="h-[80%] w-full flex gap-3">
@@ -70,6 +83,26 @@ export const Review = () => {
           {/* play store end */}
         </div>
         {/* ratting wrapper end */}
+
+        {/* Carousels starts */}
+        <div className="h-[35%] w-full">
+          <Slider {...settings}>
+            {reviews.map((review, index) => (
+              <div key={index - "carousels"}>
+                <div className="h-full w-full flex flex-col gap-3  text-[#f8f8f8] items-center justify-center">
+                  <span className="h-auto w-full p-5 font-gilroy-bold text-[1.2rem] tracking-tighter leading-[30.5px] text-center">
+                    &quot;{review.response}&quot;
+                  </span>
+                  <span className="h-auto w-full p-5 font-gilroy-bold text-[1.2rem] tracking-tighter leading-[30.5px] text-center">
+                    {review.reviewerName}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+
+        {/* Carousels ends */}
       </div>
     </>
   );

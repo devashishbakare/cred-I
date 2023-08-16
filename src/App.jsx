@@ -10,6 +10,7 @@ import { FeatureMd } from "./Components/FeatureMd";
 import { Security } from "./Components/Security";
 import { CredStory } from "./Components/CredStory";
 import { Review } from "./Components/Review";
+import { About } from "./Components/About";
 function App() {
   return (
     <>
@@ -50,6 +51,9 @@ function App() {
       </div>
       <div className="h-[100vh] min-h-[900px] w-full md:h-[70vh] md:min-h-[690px]">
         <Review />
+      </div>
+      <div className="h-auto w-full">
+        <About />
       </div>
     </>
   );

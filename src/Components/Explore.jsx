@@ -3,7 +3,7 @@ import React from "react";
 export const Explore = () => {
   return (
     <>
-      <div className="h-full w-full  explorBackground bg-cover flex flex-col justify-between">
+      <div className="h-full w-full explorBackground bg-cover flex flex-col justify-between md:bg-[url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg)] md:bg-center">
         <div className="h-[30%] w-full  flex flex-col gap-10">
           <span className="max-w-[447px] ml-3 font-gilroy-bold text-[70px] tracking-tighter leading-[60.5px] text-left text-[#f8f8f8] font-bold md:text-[100px] md:max-w-[607px] md:leading-[90.5px]">
             feel special more often.

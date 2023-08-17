@@ -11,6 +11,7 @@ import { Security } from "./Components/Security";
 import { CredStory } from "./Components/CredStory";
 import { Review } from "./Components/Review";
 import { About } from "./Components/About";
+import { Contact } from "./Components/Contact";
 function App() {
   return (
     <>
@@ -54,6 +55,9 @@ function App() {
       </div>
       <div className="h-auto w-full">
         <About />
+      </div>
+      <div className="h-auto w-auto">
+        <Contact />
       </div>
     </>
   );

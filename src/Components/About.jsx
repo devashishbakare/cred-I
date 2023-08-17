@@ -50,13 +50,3 @@ export const About = () => {
     </>
   );
 };
-
-// how does CRED reward their users?
-// CRED partners with the best premier and luxury brands to bring you an unmatched experience at the end of every credit card bill payment cycle.
-// how to earn rewards on CRED?
-// members can earn rewards in two different ways. CRED coins & gems.
-// CRED Coin Rewards:
-// - when you pay your credit card bill on CRED, for every rupee cleared on your bill you earn a CRED coin.
-// - you can then use earned CRED coins to claim exclusive rewards from different brands.
-// CRED Gem Rewards:
-// - for every person that you refer to CRED who makes a bill payment, you earn 10 gems.

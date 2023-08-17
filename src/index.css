@@ -37,7 +37,10 @@ body {
   flex-direction: column;
   justify-content: center;
   border: 1px solid green;
-  /* Adjust as needed */
-  /* position: absolute; */
-  /* transition: opacity 0.5s; */
+}
+
+.test {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
 }

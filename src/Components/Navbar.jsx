@@ -49,7 +49,7 @@ export const Navbar = () => {
                 />
               </span>
             </div>
-            <div className="h-[50%] w-full flex flex-col border-2 items-center justify-center gap-10">
+            <div className="h-[50%] w-full flex flex-col items-center justify-center gap-10">
               <span className="text-white h-20 w-[80%] bg-[#272b2d6e] flex items-center justify-center rounded-[20px] cursor-pointer">
                 CRED pay
               </span>

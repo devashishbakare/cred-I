@@ -224,8 +224,8 @@ export const Contact = () => {
 
         <div className="h-[180px] w-full  flex flex-col text-white justify-center gap-1  sm:pl-[7%] md:h-[15%] md:flex-row md:items-center mt-[10px] opacity-[0.5]">
           <span className="h-[50%] w-full max-w-[330px] md:h-[60%]">
-            copyright <AiOutlineCopyrightCircle className="inline-block" />{" "}
-            2020-23 Dreamplug Technologes Pvt.Ltd.
+            {/* copyright <AiOutlineCopyrightCircle className="inline-block" />{" "}
+            2020-23 Dreamplug Technologes Pvt.Ltd. */}
           </span>
 
           <span className="h-[50%] w-full flex max-w-[330px] md:h-[60%]">
